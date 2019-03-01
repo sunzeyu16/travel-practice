@@ -20,10 +20,10 @@ export default {
       },
       swiperList: [{
         id: '0001',
-        imgUrl: 'https://e-images.juwaistatic.com/2017/08/354aee7d-f139-4034-bc38-3a676dbc420d_1280_.jpg'
+        imgUrl: 'https://img1.qunarzz.com/piao/fusion/1802/e3/62ce7362ca051d02.jpg_640x200_6db551b7.jpg'
       }, {
         id: '0002',
-        imgUrl: 'http://www.byts.com.cn//uploads/11.jpg'
+        imgUrl: 'https://img1.qunarzz.com/piao/fusion/1801/93/ce59d182aca07102.jpg_640x200_ba03d44c.jpg'
       }]
     }
   }
@@ -37,7 +37,7 @@ export default {
     overflow: hidden
     width: 100%
     height: 0
-    padding-bottom: 66.64%
+    padding-bottom: 31.25%
     background: #eee
     .swiper-img
       width: 100%
