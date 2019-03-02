@@ -2,11 +2,11 @@
   <div>
     <div class="title">菲律宾热销</div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+      <li class="item border-bottom" v-for="item of list" :key="item.id">
         <img class="item-img" :src="item.imgUrl" />
         <div class="item-info">
-          <p class="item-title">{{item.title}}</p>
-          <p class="item-desc">{{item.desc}}</p>
+          <p class="item-title">{{item.name}}</p>
+          <p class="item-desc">{{item.address}}</p>
           <button class="item-button">查看详情</button>
         </div>
       </li>
@@ -17,25 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_140x140_73fda71d.jpg',
-        title: '玩在宿务玩在宿务玩在宿务玩在宿',
-        desc: '看鲸鲨，亲子游，吃海鲜看鲸鲨，亲子游，吃海鲜'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_140x140_73fda71d.jpg',
-        title: '玩在宿务玩在宿务玩在宿务玩在宿',
-        desc: '看鲸鲨，亲子游，吃海鲜看鲸鲨，亲子游，吃海鲜'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_140x140_73fda71d.jpg',
-        title: '玩在宿务玩在宿务玩在宿务玩在宿',
-        desc: '看鲸鲨，亲子游，吃海鲜看鲸鲨，亲子游，吃海鲜'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
