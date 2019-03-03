@@ -52,7 +52,7 @@ export default {
       width: 1.24rem
       float: right
       text-align:center
-      colot: #fff
+      color: #fff
       .arrow-icon
         margin-left: -.04rem
 </style>
