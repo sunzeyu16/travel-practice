@@ -106,6 +106,14 @@
         "comment": "37",
         "price": 100,
         "address": "温都水城养生馆"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1708/c4/c417b763cb0e74a3.water.jpg_280x200_ee737740.jpg",
+        "name": "雪白而又凉爽的细沙，天水相接湛蓝的海水",
+        "comment": "37",
+        "price": 100,
+        "address": "薄荷岛"
       }
     ],
     "weekendList": [
